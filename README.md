@@ -2,7 +2,7 @@
 A repository that contains all the examples that go with a [Medium article called Solving Sudoku with Python - A Deep Dive into Backtracking Algorithms](https://medium.com/@pkalkman)
 
 
-![fractals](/fractals.jpg "Fractals")
+![Sudoku](/sudoku.jpg "Sudoku")
 
 ## Setting up Poetry
 
@@ -42,13 +42,12 @@ poetry shell
 Your prompt should change to indicate that you are in a new shell that Poetry has set up with the correct Python version and all the dependencies.
 
 ### Running a Python Script
-You're now ready to run one of the Python scripts in the app directory. As an example, let's execute the julia.py script which generates the Julia set fractals:
-
+You're now ready to run one of the Python scripts in the app directory. 
 ```
-python app/julia.py
+python app/main.py
 ```
 
-This will generate julia images and present them on your screen.
+
 
 
 
